@@ -1,0 +1,11 @@
+langchain_community==0.4.1
+langchain_core==1.2.23
+langchain_huggingface==1.2.1
+langchain_ollama==1.0.1
+langchain_text_splitters==1.1.1
+streamlit
+faiss-cpu
+sentence-transformers
+pypdf
+tf-keras
+torch>=2.0.0
