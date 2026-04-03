@@ -7,7 +7,6 @@ from rag_pipeline import RAGPipeline
 
 st.set_page_config(page_title="Legal Document Chatbot", page_icon="⚖️", layout="wide")
 
-
 @st.cache_resource
 def load_pipeline():
     return RAGPipeline()

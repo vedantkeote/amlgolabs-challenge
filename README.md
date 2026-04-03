@@ -45,29 +45,21 @@ This project is optimized to run locally on a standard machine (e.g., 16GB RAM, 
 ### Step 1: Preprocessing and Vector Database Creation
 Before running the chatbot, you must process the provided document and build the search index.
 
-1. Place your source document in the `data/` folder and name it `AI TASK.pdf`.
-2. Navigate to the `src/` directory:
+1. Place your source document in the `data/` folder and name it `AITrainingDocument.pdf`.
+2. Run the ingestion script:
    ```bash
-   cd src
-   ```
-3. Run the ingestion script:
-   ```bash
-   python ingest.py
+   python ./src/ingest.py
    ```
    *This will generate a `document_chunks.json` file in the `chunks/` folder and build the index in the `vectordb/` folder.*
 
 ### Step 2: Run the Chatbot Interface
 Once the database is built, launch the Streamlit application.
 
-1. Navigate back to the root project directory:
-   ```bash
-   cd ..
-   ```
-2. Start the Streamlit app:
+1. Start the Streamlit app:
    ```bash
    streamlit run app.py
    ```
-3. The interface will open in your default web browser.
+2. The interface will open in your default web browser.
 
 ## Sample Queries
 
