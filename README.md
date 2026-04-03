@@ -36,7 +36,7 @@ This project is optimized to run locally on a standard machine (e.g., 16GB RAM, 
    ollama run mistral
    ```
    *Note: Keep Ollama running in the background while using this application.*
-3. **Clone github repository**
+3. **Clone github repository:**
    You can clone the repository by running
    ```bash
    git clone https://github.com/vedantkeote/amlgolabs-challenge
