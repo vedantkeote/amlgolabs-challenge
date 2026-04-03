@@ -36,7 +36,12 @@ This project is optimized to run locally on a standard machine (e.g., 16GB RAM, 
    ollama run mistral
    ```
    *Note: Keep Ollama running in the background while using this application.*
-3. **Install Python Dependencies:**
+3. **Clone github repository**
+   You can clone the repository by running
+   ```bash
+   git clone https://github.com/vedantkeote/amlgolabs-challenge
+   ```
+4. **Install Python Dependencies:**
    Ensure you are using Python 3.10+ and run:
    ```bash
    pip install -r requirements.txt
