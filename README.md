@@ -3,6 +3,8 @@
 
 This project implements a local, CPU-friendly Retrieval-Augmented Generation (RAG) chatbot designed to answer user queries based on a provided legal document. It features a completely local pipeline using FAISS, Hugging Face embeddings, and Ollama, served through a real-time Streamlit interface.
 
+![Recording 2026-04-03 164625](https://github.com/user-attachments/assets/bf3ab039-589d-4dc8-8d8e-5aeff193b3ce)
+
 ## Project Architecture and Flow
 
 The pipeline is structured into two main phases: Data Ingestion and the Inference (RAG) Pipeline.
